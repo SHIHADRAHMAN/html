@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+label{
+    width: 100px;
+    display: inline-block;padding: 7px;
+    
+}
+
+   </style>
+</head>
+<body>
+<div style="background-color: burlywood; height: 500px; width: 300px; margin-left: 500px;">
+    <form action="list.html">
+
+<label for="name">Name</label>
+<input type="text" id="1" name="a" required placeholder="Enter your full name"><br><br>
+
+<label for="age">Age :</label>
+<input type="number" min="18" max="22" required placeholder="Enter your age"> <br><br>
+
+<label for="email">Email</label>
+<input type="email" required placeholder="Enter your email"> <br><br>
+
+<label for="Gender">Gender :</label>
+<input type="radio" id="2" name="Gender1">Male
+<input type="radio" id="3" name="Gender1">Female <br><br>
+
+<label for="course">Course :</label>
+<input type="checkbox" id="4" name="c">Python
+<input type="checkbox" id="5" name="D">Mern <br><br>
+
+<label for="Place">Place</label>
+<select name="g" id="5">
+    <option value="Malappuram">Malappuram</option>
+    <option value="Kozhikode">kozhikode</option>
+</select><br><br>
+
+<label for="Address">Adress</label>
+<textarea name="u" id="7" style="vertical-align: middle;" required placeholder="Enter your full adress"></textarea> <br><br>
+
+<label for="password">Password</label>
+<input type="password" required placeholder="Enter password"> <br><br>
+
+<div style="padding-left: 120px;">
+<button type="submit">Submit</button>
+</div>
+
+</form>
+</div>
+</body>
+</html>
